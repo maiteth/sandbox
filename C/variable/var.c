@@ -7,7 +7,7 @@
 void toString(void *x, int type);
 
 int main() {
-	
+	printf("Starting\n");
 	for (float i = 0.5; i < 10.0; i++) {
 		toString(&i, FLOAT);	
 	}
