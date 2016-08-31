@@ -17,7 +17,11 @@ int main() {
 	for (int i = 0; i < 10; i++) {
 		toString(&i, INT);	
 	}
+	float a = 15.0;
+	toString(&a, FLOAT);
 	
+	int b = 15;
+	toString(&b, INT);
 	return 0;
 }
 
