@@ -1,6 +1,12 @@
 #include <stdio.h>
 
 #include "./functions.h"
+#define COUCOU
+#ifdef COUCOU
+#define HELLO 1
+#else 
+#define HELLO 2
+#endif 
 
 int main() { 
 	int x = 4;
@@ -25,6 +31,8 @@ int main() {
 	printf("sqrt(3) = %f\n", racineCarree(3));
 	
 	printf("tangente(0.786) = %f\n", tangente(0.786));
+	
+	printf("HELLO= %d\n", HELLO);
 	
 	return 0;
 }

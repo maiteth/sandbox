@@ -4,10 +4,10 @@
 
 int main() {
 	
-	int i = 5;
+	char i = 'a';
 	void *p = &i;
 	printf("%d\n", p);
-	printf("%d\n", i);
-	printf("%d\n", *((int *) p));
+	printf("%c\n", i);
+	printf("%c\n", *((char *) p));
 	return 0;
 }
