@@ -4,7 +4,9 @@
 int main() {
 	char a[20];
 	char b[20] = "hello";
+	char b1[20] = {'h', 'e', 'l', 'l', 'o', '\0'};
 	printf("b = |%s|\n", b);
+	printf("b1 = |%s|\n", b1);
 	int c[20];
 	int d[4] = {13, 20, 22, 54};
 	char answer[1000];
@@ -30,6 +32,18 @@ int main() {
 	printf("tableau[0] = |%s|\n", tableau[0]);
 	printf("tableau[1] = |%s|\n", tableau[1]);
 	printf("tableau[2] = |%s|\n", tableau[2]);
+	
+	{
+		int a;
+		int b;
+		int f;
+		
+		for (int i = 0; i < 3; i++) {
+			printf("i = %d\n", i);
+			printf("coucou\n");
+		}
+		
+	}
 	
 	return 0;
 }
