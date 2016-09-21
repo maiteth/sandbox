@@ -3,4 +3,4 @@ all:
 	gcc -o structure_read structure_read.c
 	
 clean:
-	rm -f *.exe
+	rm -f *.exe *.bin
