@@ -1,5 +1,5 @@
 all:
-	gcc -o dialog dialog.c
+	gcc -o sizeof sizeof.c
 	
 clean:
 	rm -f *.exe

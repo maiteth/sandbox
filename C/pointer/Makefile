@@ -1,5 +1,5 @@
 all:
-	gcc -o dialog dialog.c
+	gcc -o pointer pointer.c
 	
 clean:
 	rm -f *.exe

@@ -1,5 +1,5 @@
 all:
-	gcc -o dialog dialog.c
+	gcc -o chess chess.c
 	
 clean:
 	rm -f *.exe

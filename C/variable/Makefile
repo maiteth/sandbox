@@ -1,5 +1,6 @@
 all:
-	gcc -o dialog dialog.c
+	gcc -o var var.c
+
 	
 clean:
 	rm -f *.exe

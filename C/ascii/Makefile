@@ -1,5 +1,5 @@
 all:
-	gcc -o dialog dialog.c
+	gcc -o ascii ascii.c
 	
 clean:
 	rm -f *.exe
